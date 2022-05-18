@@ -1,0 +1,167 @@
+/* Utilities  */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color:rgb(52, 74, 75);
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    height: 100%;
+}
+
+h1,h2,h3,h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    overflow: auto;
+    
+}
+        
+        
+   
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}  
+
+/* Navbar */
+
+.logo img{
+    height:300px;
+}
+
+.navbar {
+    display: flex;
+    padding: 2rem;
+    height: 200px;
+    background-color: rgb(52, 74, 75);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li {
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.navbar li:hover{
+    border-bottom: 2px solid #fff;
+}
+
+/* main section */
+
+.main,
+.contact{
+    color: var(--primary-color);
+}
+.main a i,
+.contact a i{
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+
+/* about */
+.about{
+    background-color: var(--primary-color);
+    color: #fff;
+   padding: 2rem;
+}
+
+.about img{
+    height: 400px;
+    width: 500px;
+    margin: 4rem;
+}
+
+.about h3, p{
+    padding: 2rem;
+}
+
+/* Gallery */
+
+.section-header{
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 4rem;
+}
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   background-color: var(--primary-color);
+   color: #fff;
+}
+
+
+.gallery img{
+    height: 450px;
+    width: 100%;
+    padding: 0.2rem;
+    
+    
+}
+
+.contact{
+    margin: 3rem;
+}
+
+/* footer */
+.footer{
+    height: 100px;
+    background-color:var(--primary-color);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+
+
+
+    
+    
+    
+
+
+
